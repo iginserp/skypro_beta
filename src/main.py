@@ -10,3 +10,4 @@ print("Задание 2")
 raw_data = input("Введите исходные данные даты-времени: \n")
 result = transform_data(raw_data)
 print("Результат:", result)
+
