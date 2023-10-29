@@ -1,6 +1,6 @@
 def widget(data: str) -> str:
     from masks import mask_card, mask_account
-    """Функция, которая возвращает замаскированный номер карты """
+    """Функция, которая возвращает замаскированный номер карты/счета """
 
     splitted_data = data.rsplit(" ", 1)
     card_account_type = splitted_data[0]

@@ -1,6 +1,12 @@
-from masks import mask_card, mask_account
 from widget import widget
+from utils import transform_data
 
-raw_data = input("Введите реквизиты карты/счета: \n")
+print("Задание 1")
+raw_data = input("Введите исходные данные карты/счета: \n")
 mask_data = widget(raw_data)
-print("Результат:", mask_data)
+print("Замаскированные данные карты/счета:", mask_data)
+
+print("Задание 2")
+raw_data = input("Введите исходные данные даты-времени: \n")
+result = transform_data(raw_data)
+print("Результат:", result)
