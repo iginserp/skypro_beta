@@ -1,5 +1,5 @@
-from widget import widget
-from utils import transform_data
+from src.widget import widget, transform_data
+
 
 print("Задание 1")
 raw_data = input("Введите исходные данные карты/счета: \n")
@@ -10,4 +10,3 @@ print("Задание 2")
 raw_data = input("Введите исходные данные даты-времени: \n")
 result = transform_data(raw_data)
 print("Результат:", result)
-

@@ -1,4 +1,4 @@
-initial_list = ['hello', 'world', 'apple', 'pear', 'banana', 'pop']
+initial_list = ["hello", "world", "apple", "pear", "banana", "pop"]
 result = []
 for word in initial_list:
     if word[0] == word[-1]:
